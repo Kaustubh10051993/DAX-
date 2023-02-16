@@ -1,0 +1,15 @@
+DAX - Data Analysis Expression 
+Use - To enhance the data modeling - mainly used to create Calculated column ,Calculated measure , Calculated Table 
+
+DAX functions mainly devided into 3 types from application point of view 
+1) SCALAR Function - returns the single value with either could be a row or aggregated value. Output of sclar function is column or single value
+2) Tabular Function - These functions return Table as output 
+3) Scalar or Tablular Function - Behaviour of the function changes with applicaiton
+
+Difference between Caclulated column and Measure 
+Calculated column - Uses RAM - memory , Changes the structure of table it is added to , Possible to create Calculated column in Selcted Table only hence 
+the name of calculated column should be unique inside the Table selected, Row by Row operation is done and returns set of value. 
+Measure - Uses CPU - Processors , Does not change Table structer, It can be applied to number of tables and hence the name should be unique for measure created.
+This returns single value 
+
+
